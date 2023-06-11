@@ -5,9 +5,46 @@ import pickle
 import requests
 
 #===========================================
-numpy
-matplotlib
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.ui import WebDriverWait
+import time
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait as wait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver import ActionChains
 
+import csv
+import logging
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import warnings
+warnings.filterwarnings('ignore')
+
+import time
+import os
+
+import boto3
+import logging
+import yaml
+from yaml.loader import SafeLoader
+import requests
+from boto3 import resources
+
+import time
+import os
+import json
+import yaml
+from yaml.loader import SafeLoader
+import requests
+from io import StringIO
+import logging
 
 
 
