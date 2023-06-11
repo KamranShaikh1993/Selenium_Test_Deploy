@@ -7,3 +7,10 @@ sauceclient>=0.2.1
 pytest==4.4.0
 pytest-xdist
 requests
+
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
