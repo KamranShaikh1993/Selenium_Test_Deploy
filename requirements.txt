@@ -5,8 +5,7 @@
 scikit-learn
 
 
-matplotlib==3.3.4
-seaborn==0.12.2
+
 selenium==3.14.0
 sauceclient>=0.2.1
 pytest==4.4.0
@@ -15,7 +14,3 @@ requests
 
 
 
-import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import seaborn as sns
