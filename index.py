@@ -32,16 +32,9 @@ import os
 
 import boto3
 import logging
-import yaml
-from yaml.loader import SafeLoader
 import requests
 from boto3 import resources
 
-import time
-import os
-import json
-import yaml
-from yaml.loader import SafeLoader
 import requests
 from io import StringIO
 import logging
