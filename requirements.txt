@@ -15,5 +15,5 @@ requests
 
 boto3==1.26.152
 
-chromedriver_installer==2.4.2
+chromedriver_installer==2.10
 
