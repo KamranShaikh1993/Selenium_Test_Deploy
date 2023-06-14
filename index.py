@@ -43,7 +43,7 @@ import logging
 
 
 
-import streamlit_pandas as sp
+# import streamlit_pandas as sp
 
 
 st.cache(allow_output_mutation = True)
