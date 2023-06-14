@@ -57,12 +57,12 @@ def load_data():
     fname = os.path.join(d,'chromedriver.exe')
 
     # Load driver
-    driver=webdriver.Firefox(executable_path=fname)
+    driver=webdriver.chrome_driver(executable_path=fname)
     # geckodriver.exe 
     
     
     driver.maximize_window()
-    logging.info('Firefox webdriver loaded')
+#     logging.info('Firefox webdriver loaded')
 
     driver.get('https://www.flipkart.com/') 
     #driver.get('http://www.censusindia.gov.in/')
