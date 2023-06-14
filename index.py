@@ -54,7 +54,7 @@ def load_data():
     
     d = os.getcwd()
 
-    fname = os.path.join(d,'chromedriver.exe')
+    fname = os.path.join(d,'geckodriver.exe')
 
     # Load driver
     driver=webdriver.Chrome(executable_path= fname)
