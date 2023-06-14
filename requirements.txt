@@ -15,4 +15,4 @@ requests
 boto3==1.26.152
 
 
-
+pip install chromedriver_installer
