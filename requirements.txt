@@ -12,6 +12,8 @@ pytest-xdist
 requests
 
 boto3==1.26.152
+webdriver-manager
+
 
 #chromium-driver
 #chromium
