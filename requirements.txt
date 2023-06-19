@@ -16,3 +16,7 @@ boto3==1.26.152
 
 
 chromium-driver
+streamlit
+selenium
+undetected-chromedriver
+seleniumbase
