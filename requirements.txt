@@ -13,7 +13,7 @@ requests
 
 boto3==1.26.152
 
-chromium-driver
+#chromium-driver
 
 #-------------------------
 streamlit
