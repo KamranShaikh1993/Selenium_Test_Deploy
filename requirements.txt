@@ -14,8 +14,8 @@ requests
 boto3==1.26.152
 
 #---------------------------------
-webdriver-manager
-streamlib
+#webdriver-manager
+#streamlib
 
 #chromium-driver
 #seleniumbase
